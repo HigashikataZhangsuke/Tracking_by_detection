@@ -3,24 +3,38 @@ A Python3-based system use yolov3/KCF&amp;DSST/KF to detect,tracking and estimat
 这是我的本科毕设项目，主要通过YOLOv3识别，利用KCF-DSST-APCE完成抗遮挡的尺度变化跟踪，并用卡尔曼滤波估计位置。
 
 # Test environment
+
 Intel Core i5-8300H CPU@2.30GHz
+
 Nvidia GTX 1050Ti
+
 Ubuntu 18.04LTS
+
 Python3
+
 OPENCV3.4.4
 
 # Requirements
+
 CUDA9.0
+
 CUDNN7
+
 Python3
+
 OPENCV
 
 # Code structure
-## yolo.py:detect 
-## fhog.py:give fhog feature
-## tracker.py:track
-## run.py:basic framework
-## run2.py:add more visualization work for some video
+
+yolo.py:detect 
+
+fhog.py:give fhog feature
+
+tracker.py:track
+
+run.py:basic framework
+
+run2.py:add more visualization work for some video
 
 # Cites and Others' codes' citation
 @article{redmon2018yolov3,
