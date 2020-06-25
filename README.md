@@ -84,9 +84,11 @@ The YOLOv3 part is based on yehengcheng's work @ https://github.com/yehengchen/O
 The KCF and DSST part is based on ryanfwy's work @ https://github.com/ryanfwy/KCF-DSST-py
 
 # Install and use
-## First you should clone this repository:
+## First you should clone this repository and get yolo weight:
 
 > git clone https://github.com/sjtuzyz/Tracking_by_detection.git
+
+go to yehengcheng's work to get the yolo weight or learn how to transfer it.
 
 ## Then change some part of code to slove your task
 
