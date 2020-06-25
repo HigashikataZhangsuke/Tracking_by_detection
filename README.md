@@ -28,6 +28,10 @@ Python3
 
 OPENCV
 
+Numpy
+
+Numba
+
 # Code structure
 
 yolo.py:detect 
