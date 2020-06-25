@@ -104,6 +104,12 @@ The class should be changed to person or car or whatever you want.About the yolo
 
 If you want to use APCE to let the system more robust to occlusions ,just change 0.12 to a threshold of your test video, which will be print in the terminal.
 
+### Go to run.py(or run2.py and find where to change by yourself)line 35
+
+> cap = cv2.VideoCapture('./outputcar1.mp4')
+
+Change to .mp4 file to test your own video.
+
 ### Go to run.py(or run2.py and find where to change by yourself)line 50-78 and 109-136
 
 I use similar geometric relations to calculate the distance,which means you need to get the Intrinsic Matrix K by Matlab or any other code and target's height or width first.Then just change the parameters to yours.
