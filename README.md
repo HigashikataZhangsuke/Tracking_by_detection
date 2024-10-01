@@ -1,12 +1,11 @@
 # Tracking_by_detection
 A Python3-based system use yolov3/KCF&amp;DSST/KF to detect,tracking and estimate the target（people and cars） location.
-这是我的本科毕设项目，主要通过YOLOv3识别，利用KCF-DSST-APCE完成抗遮挡的尺度变化跟踪，并用卡尔曼滤波估计位置。
 
-# 视频效果/video ：
+## Sample video ：
 
 https://www.bilibili.com/video/bv1Xa4y1Y7Ue
 
-# Test environment
+## Test environment
 
 Intel Core i5-8300H CPU@2.30GHz
 
@@ -18,7 +17,7 @@ Python3
 
 OPENCV3.4.4
 
-# Requirements
+## Requirements
 
 CUDA9.0
 
@@ -32,7 +31,7 @@ Numpy
 
 Numba
 
-# Code structure
+## Code structure
 
 yolo.py:detect 
 
@@ -44,7 +43,7 @@ run.py:basic framework
 
 run2.py:add more visualization work for some video
 
-# Cites and Others' codes' citation
+## Cites and Others' codes' citation
 @article{redmon2018yolov3,
   title={Yolov3: An incremental improvement},
   author={Redmon, Joseph and Farhadi, Ali},
